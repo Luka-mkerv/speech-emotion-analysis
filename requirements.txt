@@ -1,0 +1,8 @@
+faster-whisper
+transformers
+torch
+torchaudio
+ffmpeg-python
+sounddevice
+librosa
+rich
