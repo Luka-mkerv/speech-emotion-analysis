@@ -12,3 +12,10 @@ from src.transcriber import transcribe
 result = transcribe("data/samples/output_test.wav")
 for segment in result:
     print(segment)
+
+
+
+from src.emotion import detect_emotion
+
+emotions = detect_emotion("data/samples/output_test.wav")
+print(emotions)
